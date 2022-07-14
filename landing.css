@@ -1,0 +1,7 @@
+body{
+    min-height: 90vh;
+    background-image: url('/Portfolio/Images/hero-bg.png');
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    filter: brightness(50%) saturate(140%);   
+}
