@@ -1,17 +1,24 @@
 body{
-    min-height: 90vh;
+    /* min-height: 90vh;
     background-image: url('/Personal-Portfolio/Images/hero-bg.png');
     background-size:   cover;                      
     background-repeat: no-repeat;
-    filter: brightness(50%) saturate(140%);   
+    filter: brightness(50%) saturate(140%);    */
+    min-height: 90vh;
+    /* background-color: #9dc5c3;
+    background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%); */
+    /* background-color: black; */
+    background-color: #203A43;
+    background-color: #0F2027;
+    background-color: #302b63;
+    background-size:   cover; 
+    background-repeat: no-repeat;
+  
 }
 
-.section-1{
-    margin-top:18rem;   
-}
+
 
 h1 {
-    font-family: "Montserrat Medium";
     max-width: 40ch;
     /* text-align: center; */
     transform: scale(0.94);
@@ -28,6 +35,9 @@ h1 {
     display: inline-block;
     opacity: 0;
     filter: blur(4px);
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5rem;
+    color: white;
   }
   
   span:nth-child(1) {
@@ -61,12 +71,55 @@ h1 {
 } */
 
 .nav-link{
-    color: black;
+    color: white;
     font-size: 1.5rem;
-    font-family: "Montserrat";
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;   
 }
 
 .nav-link:hover{
     color: red;
+}
+
+section{
+    margin-top:18rem;   
+}
+
+section a{
+    border: 0.2rem solid white;
+    border-radius: 30px;
+    padding:0.5rem 3rem;
+    margin-left: 5rem;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color:white;
+    background-color: black;
+}
+
+.p-btn:hover{
+    background-color: grey;
+    color:white;
+}
+
+.web{
+    color: grey;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.image{
+    height: 40rem;
+    width:40rem;
+    margin-left: 5rem;
+    margin-bottom: 30rem;
+}
+.image img{
+    object-fit: cover;
+    opacity: 0.8;
+    filter: brightness(20%)
+}
+
+.section-1{
+    padding: 0rem 30rem;
 }
